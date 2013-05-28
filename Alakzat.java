@@ -13,6 +13,11 @@ public abstract class Alakzat {
     int GetX() { return x; }
     int GetY() { return y; }
     
+    public Alakzat(int x, int y)
+    {
+    this.x = x;
+    this.y = y;
+    }
     
     public abstract void loadFromList(List<Integer> list);
 
@@ -23,10 +28,12 @@ public abstract class Alakzat {
      */
     public abstract Integer terulet();
 
+  
     /**
      * Megmondja az alakzat keruletet.
      *
      * @return
      */
+    
     public abstract Integer kerulet();
 }
