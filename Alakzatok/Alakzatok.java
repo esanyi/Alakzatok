@@ -1,5 +1,5 @@
 
-package alakzatok;
+package Alakzatok;
 
 public class Alakzatok {
   
