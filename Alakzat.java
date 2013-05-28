@@ -1,3 +1,5 @@
+package alakzatok;
+
 import java.util.List;
 
 public abstract class Alakzat {
@@ -6,6 +8,12 @@ public abstract class Alakzat {
      *
      * @param list
      */
+    private int x,y;
+    
+    int GetX() { return x; }
+    int GetY() { return y; }
+    
+    
     public abstract void loadFromList(List<Integer> list);
 
     /**
